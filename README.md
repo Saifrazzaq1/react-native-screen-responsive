@@ -1,4 +1,4 @@
-# react-native-layout-responsive
+# react-native-screen-responsive
 
 A lightweight utility library for responsive layouts in React Native that handles device-specific adjustments, including support for both **Android** and **iOS**. It also provides optimized scaling for **tablets** and different screen sizes, ensuring your app works seamlessly across all devices.
 
@@ -7,11 +7,11 @@ A lightweight utility library for responsive layouts in React Native that handle
 To install the package, run:
 
 ```bash
-npm install react-native-layout-responsive
+npm install react-native-screen-responsive
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { scale, fullWidth, fullHeight } from 'react-native-layout-responsive';
+import { scale, fullWidth, fullHeight } from 'react-native-screen-responsive';
 
 const App = () => {
   return (
@@ -70,17 +70,18 @@ Installation Notes
 This package works out of the box for most devices, but you can customize the reference dimensions and scaling factors by modifying the core values in the index.js file.
 Ensure that your React Native project is up-to-date to avoid compatibility issues.
 Contributing
-Contributions are welcome! If you'd like to improve this package, feel free to fork the repository and submit a pull request.
+Contributions are welcome! If you
+d like to improve this package, feel free to fork the repository and submit a pull request.
 
 License
-MIT License. See LICENSE for more information.
+ MIT License. See LICENSE for more information.
 
 
 ---
 
 ### Explanation of the Sections:
 - **Installation**: Instructions for installing your package via npm.
-- **Usage**: Example code on how to integrate the `react-native-layout-responsive` package into a React Native project, demonstrating how to use the `scale()` function for scaling values.
+- **Usage**: Example code on how to integrate the `react-native-screen-responsive` package into a React Native project, demonstrating how to use the `scale()` function for scaling values.
 - **API**: Details on the available functions and constants.
 - **Responsive Design**: Explains how the package handles device and tablet-specific responsiveness.
 - **Tablet Support**: Emphasizes the tablet handling, ensuring your app remains consistent on larger screens.
@@ -89,4 +90,3 @@ MIT License. See LICENSE for more information.
 
 ---
 
-You can copy this documentation directly into the `README.md` file in your package directory. Let me know if you need any further modifications or additions!

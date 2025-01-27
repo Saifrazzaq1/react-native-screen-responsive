@@ -1,5 +1,5 @@
 {
-  "name": "react-native-layout-responsive",
+  "name": "react-native-screen-responsive",
   "version": "1.0.0",
   "description": "A utility library for responsive layouts in React Native.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saifrazzaq1/react-native-layout-responsive.git"
+    "url": "git+https://github.com/Saifrazzaq1/react-native-screen-responsive.git"
   },
   "keywords": [
     "responsive",
@@ -23,9 +23,9 @@
   "author": "M Saif Razzaq",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Saifrazzaq1/react-native-layout-responsive/issues"
+    "url": "https://github.com/Saifrazzaq1/react-native-screen-responsive/issues"
   },
-  "homepage": "https://github.com/Saifrazzaq1/react-native-layout-responsive#readme",
+  "homepage": "https://github.com/Saifrazzaq1/react-native-screen-responsive#readme",
   "peerDependencies": {
     "react": "^18.3.1",
     "react-native": "^0.77.0"
